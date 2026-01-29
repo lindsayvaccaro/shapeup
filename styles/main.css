@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    line-height: 1.2;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+header h2{
+    font-size: 300%;
+    font-style: italic;
+    color: steelblue;
+    text-shadow: 2px 2px 15px gray;
+}
+
+a:link, a:visited {
+    color: steelblue;
+}
+
+a:hover, a:active {
+    color:maroon;
+}
+aside a {
+    font-weight: bold
+}
+aside a:visited {
+    color: maroon;
+}
+
+h4 {
+    font-weight: normal;
+}
